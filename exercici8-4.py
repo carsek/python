@@ -3,5 +3,14 @@ total = 0
 
 for i in range(7):
         x = input("Introdueix un número")
-        total = total + float
+        total = total + float(x)
+print("El total és:", total)
+"""
+if x > 0:
+        print("El total es:", total)
+elif x < 0:
+        print("El total es:", total)
+elif x== 0:
+        print("El total es:", total)
+""" 
     
